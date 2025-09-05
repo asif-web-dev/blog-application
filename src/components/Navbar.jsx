@@ -6,7 +6,7 @@ function Navbar({ darkMode, setDarkMode }) {
 
   return (
     <nav className="bg-white dark:bg-gray-800 shadow-md px-4 md:px-6 py-4 flex justify-between items-center">
-      <Link to="/" className="text-xl md:text-2xl font-bold text-blue-600 dark:text-blue-400">
+      <Link to="/" className="text-xl md:text-2xl font-bold text-gray-300 dark:text-gray-300">
         MyBlog
       </Link>
 

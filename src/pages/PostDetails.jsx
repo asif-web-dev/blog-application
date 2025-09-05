@@ -46,7 +46,7 @@ function PostDetail({ posts, deletePost }) {
 
       {/* Content */}
       <div className="prose dark:prose-invert max-w-none mb-6">
-        <p>{post.content}</p>
+        <p className="text-gray-900 dark:text-white mt-2">{post.content}</p>
       </div>
 
       {/* Tags */}
